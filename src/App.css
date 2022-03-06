@@ -40,8 +40,8 @@
   }
 
   .button {
-    background-color: rgba(207, 79, 79, 0.75);
-    color: rgb(44, 86, 141);
+    background-color: rgba(8, 8, 8, 0.75);
+    color: rgb(240, 234, 234);
     padding: 1rem 2rem;
     border: 1px solid rgba(0, 0, 0, 0.80);
     border-radius: 20px;
