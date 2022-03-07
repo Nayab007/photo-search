@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import Unsplash, { toJson } from 'unsplash-js';
 
-
+const API_KEY =`${process.env.REACT_APP_API_KEY}`
 
 const unsplash = new Unsplash({ 
-  accessKey: "EovY5lPZTgt4e6B46YyR34jJT3bntpJBS6HPkSiqvW4",
- });
+  accessKey : `${API_KEY}`
+ })
 
 
 export default function SearchPhotos() {
@@ -32,7 +32,7 @@ export default function SearchPhotos() {
           type="text"
           name="query"
           className="input"
-          placeholder={`Try "dog" or "apple"`}
+          placeholder={`Try "Lion" or "Kiwi"`}
           value={query}
           onChange={(e) => setQuery(e.target.value)}
         />
@@ -49,7 +49,7 @@ export default function SearchPhotos() {
               width="100%"
               height="50%"
             ></img>
-            </div> )};
+            </div> )}
       </div>
     </>
   );
