@@ -2,10 +2,10 @@ import React, { useState } from "react";
 import Unsplash, { toJson } from 'unsplash-js';
 
 
-const apiKey = "process.env.REACT_APP_API_KEY";
+const api_Key = "process.env.REACT_APP_API_KEY";
 
 const unsplash = new Unsplash({ 
-  accessKey: {apiKey},
+  accessKey: {api_Key},
  });
 
 
