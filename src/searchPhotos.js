@@ -8,7 +8,7 @@ const unsplash = new Unsplash({
  })
 
 
-export default function SearchPhotos() {
+export default function PhotoSearch() {
   const [query, setQuery] = useState("");
     const [pics, setPics] = useState([]);
     const searchPhotos = async (e) => {
