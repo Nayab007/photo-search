@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import PhotoSearch from './searchPhotos';
+import PhotoSearch from './PhotoSearch';
 
 
 function App() {
