@@ -57,6 +57,7 @@
 
   .card {
     display: grid;
+    grid-column: 1fr 1fr 1fr;
     margin-bottom: 1rem;
     
 }
