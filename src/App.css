@@ -56,7 +56,8 @@
   }
 
   .card {
-    margin-bottom: 1fr ;
+    display: grid
+    margin-bottom: 1rem;
     
 }
 
