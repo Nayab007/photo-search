@@ -52,7 +52,7 @@ export default function PhotoSearch() {
               alt={pic.alt_description}
               src={pic.urls.full}
               width="100%"
-              height="57%"
+              height="58%"
             ></img>
             </a>
           </div>
